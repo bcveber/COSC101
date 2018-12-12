@@ -1,5 +1,5 @@
 # COSC101
-Coursework done in COSC 101 (Intro to Computing I) at Colgate University Fall 17
+Coursework done in COSC 101 (Intro to Computing I) at Colgate University Spring 17
 
 ## About
 * hw_01 - General python excercises including building of a volcano
