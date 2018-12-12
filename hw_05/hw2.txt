@@ -1,0 +1,48 @@
+COSC 101: Homework 2
+Instructions
+
+This week's assignment involves writing three Python programs. Download the hw_02.zip file and extract the starter files before you begin.
+
+Important note: If you downloaded the starter package before 6:45pm on Tuesday, February 21, the module used in Program 2 might not work on your computer. You can re-download and re-extract the starter files (but be careful not to overwrite any of the work you have already done) or simply download the replacement geocode.py file.
+
+Program 1: Game Winner
+
+This program focuses on loops and accumulators.
+
+Click here for instructions.
+
+Program 2: Earth Distance
+
+The second focuses on importing functions from other modules.
+
+Click here for instructions.
+
+Program 3: Days Later
+
+The third program consists of writing multiple functions and then putting them together.
+
+Click here for instructions.
+
+Submission
+
+You will submit the following files to gradescope:
+
+hw_02_game.py
+hw_02_distance.py
+hw_02_days.py
+Follow this link to access the course's gradescope page, and click on "Homework 2" to submit your files. The autograder will accept submissions starting Wednesday, February 22 at noon.
+
+There is no limit to the number of times you can run your files through the autograder for this assignment. Still, you are encouraged to test on your own before uploading.
+
+Grading
+
+This homework assignment is worth a total of 15 points and will be graded according to the following rubric:
+
+Points	Category	Description
+3	Correctness of Program 1 (Game Winner)	Graded automatically by the Gradescope autograder.
+3	Correctness of Program 2 (Earth Distance)	Graded automatically by the Gradescope autograder.
+6	Correctness of Program 3 (Days later)	Graded automatically by the Gradescope autograder.
+3	Program Design & Style	Variable names are meaningful
+Program includes descriptive comments
+Functions contain docstrings
+Files include notes about test cases

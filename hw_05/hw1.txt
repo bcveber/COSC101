@@ -1,0 +1,169 @@
+COSC 101: Homework 1
+Instructions
+
+Follow the instructions below to write four short python programs. Download the hw_01.zip file and extract the starter files before you start.
+
+Program 1: Mad libs
+
+Your first program will allow users to play a short mad libs game. Your program will ask the player for one noun and two verbs. (You can assume that both verbs are in third person form, and all three words are strings.) Then your program will use the three inputs to output the following sentence:
+
+If it <verb 1> like a <noun> and <verb 2> like a <noun>, it probably is a <noun>.
+Add your code to the file we provided named hw_01_mad_libs.py. Be sure to add your name and answer the questions in the comments at the top of the file. Your program's output must look exactly like the examples provided below:
+
+Example #1
+
+What's the noun? duck
+What's the first verb? walks
+What's the second verb? talks
+
+If it walks like a duck and talks like a duck, it probably is a duck.
+Example #2:
+
+What's the noun? loon
+What's the first verb? swims
+What's the second verb? dives
+
+If it swims like a loon and dives like a loon, it probably is a loon.
+Example #3:
+
+What's the noun? koala
+What's the first verb? sleeps
+What's the second verb? eats
+
+If it sleeps like a koala and eats like a koala, it probably is a koala.
+Example #4:
+
+What's the noun? cheetah
+What's the first verb? looks
+What's the second verb? runs
+
+If it looks like a cheetah and runs like a cheetah, it probably is a cheetah.
+Example #5:
+
+What's the noun? horse
+What's the first verb? gallops
+What's the second verb? neighs
+
+If it gallops like a horse and neighs like a horse, it probably is a horse.
+We gave you so many examples because we want you to think about test cases. It is essential to learn to evaluate the programs your write. As your write your code, you should also be running it in the shell to test it. Write comments to let us know what inputs you used in your tests and what outputs you received.
+
+Hint: copy and paste from the shell to your script and use IDLE's Format > Comment Out Region function to turn all of the lines into comments at once. Be sure to check that the output is what you expected it to be and that there are no semantic errors in your program.
+
+Program 2: Check Out
+
+Your second program will compute the change that a cashier should give to a customer checking out at their cash register. Your program should first ask the cashier the customer's name, the total amount of the purchase, and the amount of money the customer paid. The program will then compute how much change the customer is owed. The change should be reported as the number of dollars, quarters, dimes, nickels, and pennies. The printed numbers should be of type int, however, you may need to work with floats during the computation.
+
+Add your code to the file we provided named hw_01_cashier.py. As with the previous program, be sure to add your name and answer the questions at the top of the file. Again, your program's output must exactly match the output of these examples:
+
+Example #1:
+
+What is the customer's name: Jane
+How much did Jane spend? $30.57
+How much did Jane pay? $40
+You owe Jane $9.43 (9 dollars, 1 quarters, 1 dimes, 1 nickels, and 3 pennies)
+Note: The $ in the second and third lines are part of the prompts, the user only needs to enter the numbers.
+
+Example #2:
+
+What is the customer's name: Rafael
+How much did Rafael spend? $3.02
+How much did Rafael pay? $5
+You owe Rafael $1.98 (1 dollars, 3 quarters, 2 dimes, 0 nickels, and 3 pennies)
+Example #3:
+
+What is the customer's name: Xiomara
+How much did Xiomara spend? $30.00
+How much did Xiomara pay? $40.00
+You owe Xiomara $10.0 (10 dollars, 0 quarters, 0 dimes, 0 nickels, and 0 pennies)
+Example #4:
+
+What is the customer's name: Petra
+How much did Petra spend? $657.96
+How much did Petra pay? $657.96
+You owe Petra $0.0 (0 dollars, 0 quarters, 0 dimes, 0 nickels, and 0 pennies)
+Program 3: Shapes
+
+Your third program will compute the area of three different shapes. Ask the user for the radius of a circle, the side length of a square, and the side length of an equilateral triangle. Your program will then compute the area of all three shapes and output the results. Recall the formulas to compute the areas of these shapes: the circle area formula is Pi times the radius squared, the square area formula is side length squared, the equilateral triangle area formula is square root of three divided by four times the side length squared. Your program should use 3.14159 as the value of Pi.
+
+Add your code to the file we provided named hw_01_shapes.py, be sure to complete the header of the file, and make sure your program's output matches these examples exactly:
+
+Example #1:
+
+Circle radius: 3.6
+Your circle has an area of 40.7150064.
+Square side length: 3.6
+Your square has an area of 12.96.
+Equilateral triangle side length: 3.6
+Your triangle has an area of 5.611844616523163.
+
+Example #2:
+
+Circle radius: 1
+Your circle has an area of 3.14159.
+Square side length: 3
+Your square has an area of 9.0.
+Equilateral triangle side length: 0
+Your triangle has an area of 0.0.
+
+Example #3:
+
+Circle radius: 10
+Your circle has an area of 314.159.
+Square side length: 14.6
+Your square has an area of 213.16.
+Equilateral triangle side length: 19.0
+Your triangle has an area of 156.31758538309117.
+
+Example #4:
+
+Circle radius: 6.74
+Your circle has an area of 142.71489388400002.
+Square side length: 5.9
+Your square has an area of 34.81.
+Equilateral triangle side length: 10
+Your triangle has an area of 43.30127018922193.
+
+Program 4: Volcano Text Art
+
+Your fourth program will "draw" a volcano using text characters. Your text art must be scalable, meaning that the art is not a fixed sequence of characters, but a pattern that can be drawn at a variety of scales, such as these tree, volcano, rocket.
+
+Your program will first ask the user for a positive number and then output the text art scaled accordingly. Note that the scale captures some notion of the size of the art, but it is not necessarily equal to the width or height. Examine the sample pictures linked above carefully, taking note of spacing and patterns.
+
+This program is significantly more challenging than the previous ones. Here are a few strategies we highly recommend:
+
+Start by working on the simpler tree pattern. Once you understand how to scale that, move on to the more complex volcano. When you complete the volcano you can tackle the rocket for an additional challenge!
+Break the problem down into two parts:
+Choose a scale, say scale 3, and write a program that reproduces the pattern exactly at that scale. At this point your program will not take any use input.
+Once you have that working, figure out how to change the pattern with user input.
+Note: to print a backslash character (\) you actually need to type two backslash characters (\\) . This is because python uses the backslash to produce special characters. For example, the string "\t" is a tab and "\n" is a newline. This means that to print /\/\ your code needs be print("/\\/\\").
+
+As with the other programs, write your code in the provided hw_01_volcano.py file, complete the header section, and make sure your program output exactly matches the volcano examples.
+
+Submission
+
+You will submit the following files to gradescope:
+
+hw_01_mad_libs.py
+hw_01_cashier.py
+hw_01_shapes.py
+hw_01_volcano.py
+[Optional]: hw_01_tree.py
+[Optional]: hw_01_rocket.py
+Follow this link to access the course's gradescope page, and click on "Homework 1" to submit your files.
+
+Although there is no limit to the number of times you can run your files through the autograder for this assignment, you are encouraged to test on your own before uploading.
+
+Grading
+
+This homework assignment is worth a total of 15 points and will be graded according to the following rubric:
+
+Points	Category	Description
+3	Correctness of Program 1 (Mad Libs)	Graded automatically by the Gradescope autograder.
+3	Correctness of Program 2 (Cashier)	Graded automatically by the Gradescope autograder.
+3	Correctness of Program 3 (Shapes)	Graded automatically by the Gradescope autograder.
+3	Correctness of Program 4 (Volcano)	Graded automatically by the Gradescope autograder.
+Note that you are welcome to submit your Tree and Rocket
+programs, but only your Volcano program will be graded.
+3	Program Design & Style	Variable names are meaningful, program includes descriptive
+comments (but not on every line), and files include commented
+out test cases showing you thought of special cases

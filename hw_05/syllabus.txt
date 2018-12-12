@@ -1,0 +1,164 @@
+SYLLABUS SCHEDULE HOMEWORK EXAMS TOOLS
+COSC 101: Syllabus
+Introduction to Computing I
+Spring 2017
+
+Description and Goals
+
+Computers and software are everywhere. Inside your mobile phone, your car, and quite possibly your toaster, hundreds, thousands, or millions of lines off software are running. Programs enable and mediate instant communication, global financial networks, a smoothly running engine, and a perfectly browned slice of sourdough. Writing software to instruct computers to do even simple tasks can be challenging, fun, and creative.
+
+The goal of this course is to introduce students to computer science and problem solving by writing programs. Through lecture, discussion, programming assignments, and other activities we will cover topics such as basic programming constructs (variables and types, control flow, conditionals, iteration), input and output, basic data structures, objects, and recursion. No prior experience in computer science or programming is required for this course.
+
+Organization
+
+Lecture Meeting Times
+
+Section	Instructor	Room	Time
+A	Vijay Ramachandran	McGregory 314	TR	9:55-11:10
+B	Madeline E. Smith	McGregory 314	TR	1:20-2:35
+C	Madeline E. Smith	McGregory 314	TR	2:45-4:00
+Lab Meeting Times
+
+Section	Instructor	Room	Time
+L_A	Val Cucura	McGregory 328	M	12:45-2:35
+L_B	Elodie Fourquet	McGregory 315	M	1:20-3:10
+L_C	Val Cucura	McGregory 328	M	2:45-4:35
+L_D	Val Cucura	McGregory 328	T	2:45-4:35
+L_E	Elodie Fourquet	McGregory 328	W	1:20-3:10
+L_F	Madeline E. Smith	McGregory 328	W	4:10-6:00
+Note: there will be no lab during the first week of class.
+
+Office Hours
+
+While students can attend the office hours of any course instructor, we encourage you to attend the office hours of your course instructors whenever possible. Homework questions should be asked to course instructors. Questions relating to lab work should be asked to the instructor of the laboratory section you are attending.
+
+Instructor	Email	Office	Office Hours
+Vijay Ramachandran	vramachandran	McGregory 308	Tue 1:00-3:00
+ 	 	 	Thu 1:00-3:00
+
+Madeline E. Smith	mesmith	McGregory 311	Tue 4:15-5:15
+ 	 	 	Wed 1:30-3:30
+ 	 	 	Thu 10:15-11:15
+ 	 	 	See calendar
+
+Elodie Fourquet	efourquet	McGregory 309	Mon 12:15-1:10
+ 	 	 	Wed 10:15-11:00
+ 	 	 	Thu 2:40-4:00
+ 	 	 	Fri 10:15-11:00
+
+Val Cucura	vcucura	McGregory 317	Mon 10:00-12:00
+ 	 	 	Tue 10:00-12:00
+Please note that office hours are subject to change throughout the semester, consult this website for up-to-date office hours.
+
+Email Policy
+
+Talking to your professors in class and office hours are the preferred means of contact for this course. However, there may be times when you need to use email. When you do, be sure to include "COSC 101" in your email subject line. The instructors make every effort to respond to emails within 24 hours and will often respond sooner; however, there may be times when responses take as long as 72 hours. Multiple or repeated emails will delay the response time.
+
+Open Lab
+
+COSC tutors are available during open lab hours in McGregory 328. Lab tutors provide help hands-on with coursework. Times are Sundays-Thursdays 7:00-10:00pm.
+
+Course Work
+
+This course (lecture + lab) count for a total of 1.25 credits. Therefore, you are expected to spend roughly 12.5 hours/week on this course, on average. A rough indication of how that time should be allocated across the various requirements follows:
+
+Class: You are expected to come to class and to actively participate, including answering questions and completing other in-class activities. Students may be called on in class. (~3 hours/week)
+Reading: Please do the assigned reading (see schedule) before class. Anything from the required reading, even if not directly discussed in class, is fair game for the homework and exams. (~1 hour/week)
+Lab: To complete this course, you must also sign up for a 2-hour weekly laboratory section. Labs are designed to be completed during the lab period. Please note that you will likely have a different instructor than in lecture, and this instructor will determine the lab component of your grade. (~2 hours/week)
+Homework: There are weekly homework assignments, typically due on Fridays. Homework takes the concepts introduce in class and practiced in lab and pushes you to apply them to even more challenging problems. (~6 hours/week, less during exam weeks)
+Exams: There will be four cumulative exams held outside of regular class meeting times:
+Exam 1: Wednesday, February 15, 7-8pm in Lathrop 207
+Exam 2: Wednesday, March 22, 7-8pm in Lathrop 207
+Exam 3: Wednesday, April 19, 7-8pm in Lathrop 207
+Final Exam: Self-scheduled during final exam week
+If you have a conflict with the scheduled exam time, you must notify your instructor as soon as possible, at least two weeks prior to the exam. (~2 hours per week, more during exam weeks)
+
+Materials
+
+Textbooks
+
+How to Think Like a Computer Scientist: Interactive Edition Is a free, online, interactive textbook containing examples with embedded code fragments that you can run and modify.
+You will occasionally be asked to read from other books and sources, they will be available freely online and linked from the course schedule.
+Websites
+
+Course Webpage: The main course website is located at http://cs.colgate.edu/cosc101. This page contains general course information: the syllabus, textbook, homework descriptions, exam preparation, and relevant links. You are responsible for keeping up with changes and updates to the site.
+Tools: See our tools page for links to various online resources we are using in this course.
+Software
+
+All programming will be done using the Python 3 language. Lab computers will have python pre-installed. However, you may wish to install Python on your personal computer. If you choose to install Python, be sure to install Python 3, not 2.7!!. See our tools page for more information.
+Reference
+
+The official Python language website, has loads of useful documentation. Especially useful references include the tutorial and the module index.
+Grading
+
+An outline of the composition of your final grade is as follows. Grading is on an absolute scale (no curve).
+
+Coursework	Portion of grade
+Class Participation	5%
+Readings and Exercises	5%
+Homework	36%
+Lab	15%
+Midterm Exams	24% (8% each)
+Final Exam	15%
+Although the lecture and lab credits appear separately on the transcript, the two parts of the course are integrated and work together to help you learn the material. As a result, a total course grade will be computed using the components above and the same corresponding letter grade will be issued for both credits.
+
+Final course grades are determined as follows. As a general rule, fractions are rounded down (e.g., an 89.9 is a B+, not an A-). A grade of A+ is awarded when the student demonstrates truly exceptional performance and is not simply determined by having a high final course grade.
+
+Letter Grade	Percent Grade
+A+	*
+A	>93
+A-	90 - 92
+B+	87 - 89
+B	83 - 86
+B-	80 - 82
+C+	77 - 79
+C	73 - 76
+C-	70 - 72
+D+	67 - 69
+D	63 - 66
+D-	60 - 62
+F	<60
+To pass the course, you must pass the final exam.
+
+Policies
+
+Academic honesty and collaboration
+
+You are expected to abide by Colgate's academic honor code. Collaboration (i.e., discussing the problem and possible solutions) while working on assignments is fine, but the work you submit must be your own. Roughly speaking, it is okay to share ideas but it is not okay to share any artifacts (code, write-up, etc.). Here is a good way to think about it: you and a classmate can get together, discuss ideas, and even write some code. However, you are expected to leave that meeting with nothing - no notes and certainly no code - and write up your own solution. If you do collaborate, please include a note with any submitted work that states clearly with whom you collaborated. Failing to acknowledge your collaborators can be considered a violation of the honor code.
+
+Late homework
+
+The concepts in this course build on one another, so once a student gets behind, it becomes increasingly harder to keep up. For this reason, late homework is penalized severely. Adequate time is given to complete all work. Homework turned in after the stated deadlines will generally not be accepted. However, each student has one "late pass" that can be used to turn in a single homework up to 24 hours late with a 10% grade reduction.
+
+Unexpected circumstances
+
+If unexpected circumstances arise that could impact your involvement in the course (inability to attend class, complete the homework on time, etc.), please let me know as soon as possible so that we may design appropriate accommodations. Usually these accommodations will be made in consultation with your administrative dean.
+
+Getting Help
+
+A key to your success at Colgate, and in life in general, is figuring out what resources are available and using them to help you achieve your goals. For any homework problems or other class-related questions that you have, there are several options for getting help. Please take advantage of these opportunities!
+
+See instructor during office hours.
+Form a study group with other students in the class and work together on a regular basis (note the collaboration policy above).
+See CS student tutors during Open Lab hours.
+It's worth reading "How to Study CS", written by Prof. Stratton, as you will likely find that computer science is unlike other disciplines that you have encountered and you will need to approach studying differently.
+
+In addition, please be aware of the great resources that Colgate provides:
+
+Academic Support and Disabilities Services; Lynn Waldman, Director.
+
+If you feel you may need an accommodation based on the impact of a disability, you should contact your instructor privately to discuss your specific needs. If you have not already done so, please contact Lynn Waldman, Director of Academic Support and Disability Services at 315-228-7375 in the Center for Learning, Teaching, and Research. Ms. Waldman is responsible for determining reasonable and appropriate accommodations for students with disabilities on a case-by-case basis, and more generally, for ensuring that members of the community with disabilities have access to Colgate's programs and services.  She also assists students in identifying and managing the factors that may interfere with learning and in developing strategies to enhance learning.
+
+Counseling Center
+
+College life can sometimes get bumpy; if you are experiencing emotional or personal difficulties, the Counseling Center offers completely confidential and highly professional services.
+
+NASC Liaison Group
+
+The NASC Liaison Group is a group of natural science and mathematics professors dedicated to providing science-interested students from underrepresented groups with mentorship, motivation, and individualized support. To find out more about the group or to contact a member, visit the NASC division webpage. Prof. Fourquet, one of the COSC 101 lab instructors, is a member of this group.
+
+SOURCe
+
+Student Operated User Resource Center offers peer support and expertise related to computer and technology. Located in Case-Geyer the team assists with problems concerning email, internet, and public access computers on campus.
+
+2017 Department of Computer Science,Colgate University

@@ -1,0 +1,35 @@
+COSC 101: Homework #0
+
+This first homework assignment is significantly shorter than future homeworks. You will be able to complete this assignment in class on Thursday, January 26th.
+
+There are several goals of this assignment:
+
+Verify that your accounts are created successfully and practice using them before the bigger homework assignments begin.
+Use Python Anywhere to write a program and download the file.
+Submit that program to Gradescope and test that it passes the assignment requirements.
+Instructions
+
+Create a python program with some output
+
+In class on Thursday you created your account on PythonAnywhere.com. You will use that account to write a python program and complete this assignment:
+
+Create a new file called hw0.py.
+Write a simple python program that prints a sentence about your first week back at Colgate. Be sure to include the word 'Colgate' in your output.
+Save and run your program to make sure it works as you expected it to. Make any necessary changes and repeat until you have completely debugged your program.
+Download your completed program file.
+Submit your file to Gradescope
+
+As we mentioned in class, you will be submitting all of your homework assignments to Gradescope, using the account you created in class on Thursday.
+
+Go to Homework 0 on Gradescope and login to your account.
+Upload your hw0.py file.
+The autograder will run and test your submission. The results should indicate your program failed the test. Can you figure out why this happened? Read the error message carefully.
+Revise your code and resubmit to Gradescope
+
+Now that you know how to create your program on Python Anywhere and test it on Gradescope, try again until your program passes both of the Gradescope tests. Read the test results carefully to make sure you understand what the assignment is testing for.
+
+Note that we can see how many times you submitted and tested your code on Gradescope. For this assignment there is no limit to the number of tests you are allowed. Future assignments may specify a limit, so you will need to test your code on your own before uploading to Gradescope.
+
+Grading
+
+This homework assignment is worth 1 point and will be graded as Pass/Fail. As long as you submit a file to gradescope that passes the autograder, you will receive full credit for this assignment.

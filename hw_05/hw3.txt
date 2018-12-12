@@ -1,0 +1,157 @@
+COSC 101: Homework 3
+Instructions
+
+In this homework your will write a series of functions to manipulate digital images. The goal of this assignment is for you to get practice with for loops, nested for loops, conditional statements, functions, and lists.
+
+Getting Started
+
+Before you begin you must download the hw_03.zip file and extract the starter files.
+
+Next, visit the Image Page to download the cImage Python Library and review the demo code and other useful resources. Be sure that the cImage.py file you downloaded is in the same directory as your other files for this assignment.
+
+Open and attempt to run the hw_03.py file in IDLE. If you are not able to run the file, check that your cImage.py and pres_casey.gif files are in the same directory as the hw_03.py file. Do not attempt the tasks below until you have been able to successfully run this file.
+
+You will write all of your code for this assignment in the hw_03.py file. Be sure the carefully read through all of the comments in the file to make sure you understand what sections of the file you do not need to modify and where your code should go.
+
+We have provided four image files you can work with for this assignment: pres_casey.gif, colgate1.gif, colgate2.gif, and colgate3.gif. Note that colgate1.gif is the smallest file and will run faster than the others, allowing you to more quickly test your code. However, because it is so small it may be difficult to see any problems that are occurring. We strongly recommend testing your code with multiple image files before submitting.
+
+pres_casey.gif colgate1.gif colgate2.gif colgate3.gif
+
+
+Pixel-by-Pixel Image Manipulation Functions
+
+You will write 10 functions that take an image object, create a copy, perform a pixel-by-pixel manipulation, and return the manipulated copy. You may write any additional helper functions that you find helpful. Below there are descriptions and sample images for each of the required manipulations.
+
+The code for an example function, red_filter, is provided in hw_03.py.
+
+red_filter('pres_casey.gif') red_filter('colgate1.gif') red_filter('colgate2.gif') red_filter('colgate3.gif')
+
+grayscale
+
+Shades of gray have the same red, green and blue value. To convert an image to grayscale, set each of the red, green and blue channel to the average value of the original pixel.
+
+Note: There is a solution to this problem provided in the textbook, so it is not worth any points for your grade. However, you are required to complete this function as will need to use this manipulation for a later function.
+
+grayscale('pres_casey.gif') grayscale('colgate1.gif') grayscale('colgate2.gif') grayscale('colgate3.gif')
+
+
+cycle_colors
+
+Use a transformation that moves the red value to the blue channel, the green to the red channel, and the blue to the green one.
+
+cycle_colors('pres_casey.gif') cycle_colors('colgate1.gif') cycle_colors('colgate2.gif') cycle_colors('colgate3.gif')
+
+
+negative
+
+The negative of an image is created by inverting each color channel. So if the red value is 255, it becomes 0; if it is 254, it becomes 1, and so on, down to 0, which becomes 255. Similarly for green and blue.
+
+negative('pres_casey.gif') negative('colgate1.gif') negative('colgate2.gif') negative('colgate3.gif')
+
+
+brightness
+
+This function will take an additional parameter: a positive or negative number. Adjust the color values by the entered amount, being sure that no color values go over 255 or below 0. In the examples below the brightness is first increased by 70, and second the original brightness of the original image is decreased by 70.
+
+brightness('pres_casey.gif', 70) brightness('colgate1.gif', 70) brightness('colgate2.gif', 70) brightness('colgate3.gif', 70)       brightness('pres_casey.gif', -70) brightness('colgate1.gif', -70) brightness('colgate2.gif', -70) brightness('colgate3.gif', -70)
+
+
+increase_contrast
+
+When increasing contrast, color values at 128 are unchanged. For any other value, the difference between that value and 128 is doubled, without going over 255 or below 0.
+
+Example color values:
+
+start value	start diff	 	end value	end diff
+129	+1	 	130	+2
+125	-3	 	122	-6
+200	+72	 	255	max
+increase_contrast('pres_casey.gif') increase_contrast('colgate1.gif') increase_contrast('colgate2.gif') increase_contrast('colgate3.gif')
+
+
+posterize
+
+Typically a pixel uses only of 256 values (any integer in the range [0-255]) for each color channel. In a posterized image, the set of numbers a pixel uses is drastically reduced; only multiples of 32 are used (from the same range). Use a transformation to round each value down to the nearest multiple of 32.
+
+posterize('pres_casey.gif') posterize('colgate1.gif') posterize('colgate2.gif') posterize('colgate3.gif')
+
+
+vertical_flip
+
+Flip the image vertically so that the top side is flipped down to bottom and vice versa.
+
+vertical_flip('pres_casey.gif') vertical_flip('colgate1.gif') vertical_flip('colgate2.gif') vertical_flip('colgate3.gif')
+
+
+horizontal_mirror
+
+Mirror the image horizontally, so that the content on the left side will is mirrored on the right side.
+
+horizontal_mirror('pres_casey.gif') horizontal_mirror('colgate1.gif') horizontal_mirror('colgate2.gif') horizontal_mirror('colgate3.gif')
+
+
+scroll
+
+This function will take an additional parameter: an integer. The image will then be shifted to the left by that number of pixels. Pixels that "fall off" the edge should wrap around to the other side.
+
+scroll('pres_casey.gif') scroll('colgate1.gif') scroll('colgate2.gif') scroll('colgate3.gif')
+
+
+omabafy
+
+For this transformation, each pixel is assigned one of four colors:
+
+yellow: red = 252, green = 227, blue = 166
+dark blue: red = 0, green = 51, blue = 76
+light blue: red = 112, green = 150, blue = 158
+red: red = 217, green = 26, blue = 33
+The assignment is based on the pixel's grayscale value:
+
+Grayscale values 183 and above are yellow.
+Grayscale between 182 and 122 (inclusive) are light blue.
+Grayscale between 121 and 61 (inclusive) are red.
+Grayscale values 60 and below are dark blue.
+obamafy('pres_casey.gif') obamafy('colgate1.gif') obamafy('colgate2.gif') obamafy('colgate3.gif')
+
+
+Image Result Functions
+
+You will also write 2 functions to save and display the resulting images. Descriptions for each of these functions are described below:
+
+save_image
+
+This function will take two parameters: an image object and a string, representing the file name. The function will save the image object with the provided file name.
+
+save_images
+
+This function will take two parameters: a list of image objects and a list of strings, representing file names. The function will use your save_image function to save each image from the list with the corresponding file names.
+
+Submission
+
+Submit your completed hw_03.py file to gradescope. The autograder will be opened at 5pm on Wednesday, March 8th. You may re-submit your assignment and re-run the autograder multiple times before the assingment deadline (5pm on Friday, March 10th). However, because the assignment involves images, the autograder will run much slower than with previous assignments. We highly encourage you to test on your own before submitting to gradescope.
+
+Note: The autograder was updated around 3:00pm on Thursday, March 9. Please re-submit to check your work with the updated version.
+
+Grading
+
+This homework assignment is worth a total of 16 points and will be graded according to the following rubric:
+
+10 Points: Image Manipulation Functions (auto-graded on Gradescope)
+grayscale() (0 points)
+cycle_colors() (1 point)
+negative() (1 point)
+brightness() (1 point)
+increase_contrast() (1 point)
+posterize() (1 point)
+vertical_flip() (1 point)
+horizontal_mirror() (1 point)
+scroll() (1 point)
+obamafy() (2 points)
+3 Points: Image Result Functions (auto-graded on Gradescope)
+save_image() (1 point)
+save_images() (2 points)
+3 Points: Program Design & Style
+Variable names are meaningful.
+Functions contain docstrings.
+Functions include descriptive comments.
+File includes notes about testing.
