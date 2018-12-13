@@ -9,3 +9,12 @@ Coursework done in COSC 101 (Intro to Computing I) at Colgate University Spring 
 * hw_05 - Word program. Calculates word_frequencies in a file, compare word_frequencies between two files, finds most x common words in a file, finds most common words from a given list, these last 2 functions can also be used between multiple files.
 * hw_06 - Has a user create a x length of code, and guess colors present in that code. Returns black or white pegs depending on their guesses.
 * hw_07 - Islands - via recursion counts number of unique islands (denoted 'X') in a txt file. Maze - solves a path for a maze using recursion. 
+* -----------------
+* lab2 - general exercises
+* lab4 - mini excercises
+* lab5 - general excercises
+* lab6 - string work
+* lab8 - encrypt and decrypt key program
+* lab9 - more string work
+* lab10 - extracts nouns, verbs, and prepositions from individual lists and makes a user-requested phrase. Second part - capital game where user attempts to guess capitals of states and returns number correct. 
+* lab12 - Creates a word puzzle and has the user guess from it to try and identify words. 
