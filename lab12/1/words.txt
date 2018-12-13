@@ -1,0 +1,19 @@
+#some will be in diagonals
+actrice	
+allemand	
+americain 
+avocat	
+bete	
+coreenne 
+cousine	
+enfant	
+mannequin 
+mari	
+patronne	
+pere 
+pharmacienne	
+sensible	
+sportif 
+suisse	
+tante	
+voisin
